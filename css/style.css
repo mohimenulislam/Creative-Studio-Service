@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+ul li {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #F4F4F4;
+  border-top: 18px solid #090909; }
+
+.wraper {
+  width: 960px;
+  margin: 0 auto; }
+
+.header {
+  margin-top: 21px;
+  padding-bottom: 18px;
+  overflow: hidden;
+  border-bottom: 1px solid #C0C0C0; }
+
+.logo img {
+  width: 182px;
+  float: left; }
+
+.navigation {
+  width: auto;
+  float: right;
+  margin-top: 42px; }
+  .navigation ul li {
+    display: inline-block;
+    padding-left: 64px;
+    font-weight: bold;
+    transition: 0.3s; }
+    .navigation ul li:first-child {
+      padding-left: 0; }
+    .navigation ul li a {
+      color: #FD9C00;
+      text-transform: uppercase;
+      font-size: 12px; }
+      .navigation ul li a:hover {
+        color: black; }
+
+.main_body {
+  margin-top: 20px; }
+  .main_body .banner {
+    width: 960px;
+    height: 380px;
+    background-image: url("../img/banner-color.png"); }
+    .main_body .banner .left_side {
+      width: 480px;
+      float: left;
+      padding-left: 35px;
+      margin-top: 40px; }
+      .main_body .banner .left_side img {
+        height: 215px;
+        width: 445px; }
+      .main_body .banner .left_side .small_bar {
+        height: 45px;
+        width: 445px;
+        background-color: #090909;
+        margin-top: 35px; }
+        .main_body .banner .left_side .small_bar .bar_left {
+          width: 200px;
+          float: left;
+          margin-left: 12px; }
+          .main_body .banner .left_side .small_bar .bar_left h2 {
+            color: #7D7D7D;
+            font-size: 15px;
+            line-height: 44px;
+            font-weight: bold;
+            text-transform: uppercase; }
+        .main_body .banner .left_side .small_bar .bar_right {
+          width: 145px;
+          float: right;
+          margin-right: 10px; }
+          .main_body .banner .left_side .small_bar .bar_right a {
+            color: #E18A01;
+            font-size: 15px;
+            line-height: 44px;
+            font-weight: bold;
+            text-transform: uppercase; }
+            .main_body .banner .left_side .small_bar .bar_right a:hover {
+              color: white; }
+    .main_body .banner .right_side {
+      float: right;
+      margin-top: 36px; }
+      .main_body .banner .right_side img {
+        margin-right: 0;
+        margin-bottom: 0; }
+
+/*# sourceMappingURL=style.css.map */
