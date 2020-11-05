@@ -1,0 +1,38 @@
+.portfolio{
+    border-top: 1px solid #C0C0C0;
+    padding-top: 20px;
+    margin-top: 30px;
+    overflow: hidden;
+    h2{
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .portfolio_img{
+        overflow: hidden;
+        margin-top: 20px;
+        a{
+            width: 62px;
+            height: 21px;
+            color: black;
+            background-color: #E18A01;
+            text-transform: uppercase;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            line-height: 24px;
+        }
+        .common_img{
+            width: 216px;
+            height: 135px;
+            position: relative;
+        }
+        .image-left{
+            float: left; 
+            margin-right: 32px;  
+        }
+        .image-right{
+            float: right;
+        }
+    }
+}
